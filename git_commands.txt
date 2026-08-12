@@ -1,0 +1,30 @@
+ls -a
+git status
+git add testing.py
+git status
+git rm --cached testing.py
+git status
+git add testing.py
+git status
+git commit -m "added testing file"
+cd
+git commit -m "added testing file"
+git config --global user.email "talibalam265@gmail.com"
+git config --global user.name "Mohammad Talib"
+git commit -m "added testing file"
+git status
+clear
+rm testing.py
+git restore testing.py
+ls
+clear
+git status
+git remote -v
+git remote set-url origin 
+git commit -m "added git commands"
+git status
+git remote -v
+git push origin master
+git remote set-url origin http://@TOKENgithub.com/talibb09/github-for-devops-workshop.git
+git remote -v
+git push origin maste
